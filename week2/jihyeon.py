@@ -8,7 +8,6 @@ class Person:
     def getBirthYear(self):
         return 2022 - self.age + 1
 
-
 me = Person("지현", 24)
 print(me.getBirthYear())
 """
@@ -16,9 +15,12 @@ print(me.getBirthYear())
 # 지현 2. random 함수를 이용하여 로또 번호를 추출하고, 출력하세요. (1~45까지, 6개)
 """
 import random
+
 lotto = []
+
 for i in range(6):
 	lotto.append(random.randint(1, 45))
+	
 print(lotto)
 """
 
