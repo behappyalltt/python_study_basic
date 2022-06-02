@@ -12,13 +12,15 @@ for i in range(5):
 
 print(grades)
 print(sum / 5)
+
+statistics.mean()
 """
 
 # 주혜 2.class를 생성한 뒤, 그 안에 2개의 숫자의 최소공배수를 구하는 메서드를 만들고, 객체를 생성하여 메서드 결과값을 출력하시오
 """
 import math
 
-class Num:
+class Exam:
     def __init__(self, num1, num2):
         self.num1 = num1
         self.num2 = num2
@@ -26,7 +28,7 @@ class Num:
     def getLeastCommonMultiple(self):
         return math.lcm(self.num1, self.num2)
 
-numbers = Num(15, 25)
+numbers = Exam(15, 25)
 print(numbers.getLeastCommonMultiple())
 """
 
